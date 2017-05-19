@@ -237,6 +237,7 @@
 				TargetAttributes = {
 					65C658691ECE8F2100296D42 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5YTH3WKNZJ;
 						ProvisioningStyle = Manual;
 					};
 					65C658851ECE8F2100296D42 = {
@@ -506,12 +507,13 @@
 			baseConfigurationReference = 56A76AD67184E7EBEEC723E9 /* Pods-ZMusicPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5YTH3WKNZJ;
 				INFOPLIST_FILE = ZMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c28f3b4d-d6d3-46bc-a3ad-6c9214ba5ee7";
+				PROVISIONING_PROFILE_SPECIFIER = DanielProject_Dev;
 			};
 			name = Debug;
 		};
@@ -520,12 +522,14 @@
 			baseConfigurationReference = 82751C78E7F6911F38F8CB4B /* Pods-ZMusicPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5YTH3WKNZJ;
 				INFOPLIST_FILE = ZMusicPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZMusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8836fd53-f534-4832-9e1f-7cee4e069038";
+				PROVISIONING_PROFILE_SPECIFIER = DanielProject_Hoc;
 			};
 			name = Release;
 		};
@@ -594,6 +598,7 @@
 				65C6589C1ECE8F2100296D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C6589D1ECE8F2100296D42 /* Build configuration list for PBXNativeTarget "ZMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -602,6 +607,7 @@
 				65C6589F1ECE8F2100296D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C658A01ECE8F2100296D42 /* Build configuration list for PBXNativeTarget "ZMusicPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +616,7 @@
 				65C658A21ECE8F2100296D42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
